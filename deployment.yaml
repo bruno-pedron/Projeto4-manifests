@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: projeto4_cicd
+  name: projeto4-cicd
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: projeto4_cicd
+      app: projeto4-cicd
   template:
     metadata:
       labels:
-        app: projeto4_cicd
+        app: projeto4-cicd
     spec:
       containers:
-      - name: projeto4_cicd-container
+      - name: projeto4-cicd-container
         image: brunopedron/Projeto4_CICD:0ef91a7
         ports:
         - containerPort: 80
