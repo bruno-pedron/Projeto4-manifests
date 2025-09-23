@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: projeto4-cicd-container
-        image: brunopedron/Projeto4-CICD:47ef561
+        image: brunopedron/Projeto4-CICD:d0ca038
         ports:
         - containerPort: 80
